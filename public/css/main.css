@@ -32,7 +32,8 @@ main {
 
 .logosek {
     position: absolute;
-    margin-left: 50vh;
+    top: 30%;
+    left: 30%;
 }
 
 p {

@@ -1,10 +1,10 @@
 # The Witcher Website
 
-[https://iwderwitcher.web.app/](https://iwderwitcher.web.app/)
+[https://wiedzmin-stronka.vercel.app/](https://wiedzmin-stronka.vercel.app/)
 
-A fan site for The Witcher games &amp; books. Coursework for Leiden University of Applied Sciences.
+Strona przygotawana na potrzebę wykonania projektu strony internetowej do szkoły. 
 
-Requirements:
+Wymagania:
 - No JS libraries
 - No CSS libraries
 - No errors in JS code

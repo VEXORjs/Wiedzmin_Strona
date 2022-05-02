@@ -30,6 +30,11 @@ main {
     height: 110%;
 }
 
+.logosek {
+    position: absolute;
+    margin-left: 50vh;
+}
+
 p {
     font-size: 120%;
 }

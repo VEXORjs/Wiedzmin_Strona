@@ -7,7 +7,7 @@ main {
     margin: 0 auto;
 }
 
-section > header {
+section>header {
     margin-bottom: 1rem;
 }
 

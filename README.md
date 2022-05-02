@@ -2,7 +2,7 @@
 
 [https://wiedzmin-stronka.vercel.app/](https://wiedzmin-stronka.vercel.app/)
 
-Strona przygotawana na potrzebę wykonania projektu strony internetowej do szkoły. 
+Strona przygotowana na potrzebę wykonania projektu strony internetowej do szkoły. 
 
 Wymagania:
 - No JS libraries

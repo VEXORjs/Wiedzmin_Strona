@@ -237,3 +237,9 @@ footer li {
 .ghb:hover {
     color: purple;
 }
+
+.games1 {
+    position: relative;
+    margin-left: 30vh;
+    margin-bottom: 70px;
+}

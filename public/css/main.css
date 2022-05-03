@@ -224,7 +224,16 @@ footer li {
     }
 }
 
-.games {
-    margin: 0 auto;
-    padding: 0 auto;
+.gh {
+    color: white;
+    margin-left: 30%;
+    text-decoration: none;
+}
+
+.gh:hover {
+    color: purple;
+}
+
+.ghb:hover {
+    color: purple;
 }

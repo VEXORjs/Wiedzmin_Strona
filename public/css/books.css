@@ -31,3 +31,12 @@ main li {
     font-size: 120%;
     margin: 1rem auto 1rem 2rem;
 }
+
+.icon {
+    width: 10%;
+    height: 50px;
+}
+
+.glowna:hover {
+    color: purple;
+}

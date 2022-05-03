@@ -7,7 +7,7 @@ main {
     margin: 0 auto;
 }
 
-section > header {
+section>header {
     margin-bottom: 1rem;
 }
 
@@ -52,4 +52,13 @@ main small {
         width: 200px;
         height: 112px;
     }
+}
+
+.icon {
+    width: 10%;
+    height: 50px;
+}
+
+.glowna:hover {
+    color: purple;
 }

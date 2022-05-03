@@ -34,15 +34,15 @@ function slide(wrapper, items, prev, next) {
     items.addEventListener('touchmove', dragAction);
 
     // Click events
-    prev.addEventListener('click', function () { shiftSlide(-1); });
-    next.addEventListener('click', function () { shiftSlide(1); });
+    prev.addEventListener('click', function() { shiftSlide(-1); });
+    next.addEventListener('click', function() { shiftSlide(1); });
 
     // Transition events
     items.addEventListener('transitionend', checkIndex);
 
     setData();
 
-    function dragStart (e) {
+    function dragStart(e) {
         e = e || window.event;
         e.preventDefault();
         posInitial = items.offsetLeft;
@@ -56,7 +56,7 @@ function slide(wrapper, items, prev, next) {
         }
     }
 
-    function dragAction (e) {
+    function dragAction(e) {
         e = e || window.event;
 
         if (e.type == 'touchmove') {
@@ -69,7 +69,7 @@ function slide(wrapper, items, prev, next) {
         items.style.left = (items.offsetLeft - posX2) + "px";
     }
 
-    function dragEnd (e) {
+    function dragEnd(e) {
         posFinal = items.offsetLeft;
         if (posFinal - posInitial < -threshold) {
             shiftSlide(1, 'drag');
@@ -84,7 +84,7 @@ function slide(wrapper, items, prev, next) {
 
     function point() {
         let adjustedIndex = index + 1;
-        if(index + 1 > slidesLength) adjustedIndex = 1;
+        if (index + 1 > slidesLength) adjustedIndex = 1;
         small = window.matchMedia("(max-width: 600px)").matches;
         slideSize = small ? 320 : 500;
         items.style.left = -slideSize * adjustedIndex + "px";
@@ -94,11 +94,11 @@ function slide(wrapper, items, prev, next) {
 
     function setData() {
         let adjustedIndex = index + 1;
-        if(index + 1 > slidesLength) adjustedIndex = 1;
+        if (index + 1 > slidesLength) adjustedIndex = 1;
         document.getElementById("name").innerHTML = slides[adjustedIndex].dataset.name;
         document.getElementById("character-description").innerHTML = slides[adjustedIndex].dataset.description;
-        document.getElementById("job").innerHTML = "<strong>Job:</strong> " + slides[adjustedIndex].dataset.job;
-        document.getElementById("country").innerHTML = "<strong>Country:</strong> " + slides[adjustedIndex].dataset.country;
+        document.getElementById("job").innerHTML = "<strong>Notka:</strong> " + slides[adjustedIndex].dataset.job;
+        document.getElementById("country").innerHTML = "<strong>Pochodzenie:</strong> " + slides[adjustedIndex].dataset.country;
     }
 
     function shiftSlide(dir, action) {
@@ -119,7 +119,7 @@ function slide(wrapper, items, prev, next) {
         allowShift = false;
     }
 
-    function checkIndex (){
+    function checkIndex() {
         items.classList.remove('shifting');
 
         if (index == -1) {
@@ -138,10 +138,10 @@ function slide(wrapper, items, prev, next) {
 
 slide(slider, sliderItems, prev, next);
 
-document.getElementById("js__series").onclick = function () {
+document.getElementById("js__series").onclick = function() {
     location.href = "series.html";
 };
 
-document.getElementById("js__shop").onclick = function () {
+document.getElementById("js__shop").onclick = function() {
     location.href = "shop.html";
 };

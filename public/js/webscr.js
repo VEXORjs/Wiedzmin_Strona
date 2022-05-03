@@ -1,0 +1,1 @@
+const URL = "https://pl.gear.cdprojektred.com/yennefer-the-kunoichi.html?forceRegion=pl&path=yennefer-the-kunoichi.html"

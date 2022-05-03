@@ -223,3 +223,8 @@ footer li {
         transform: translateY(-50%) translateX(-50%);
     }
 }
+
+.games {
+    margin: 0 auto;
+    padding: 0 auto;
+}

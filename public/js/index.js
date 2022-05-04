@@ -145,3 +145,10 @@ document.getElementById("js__series").onclick = function() {
 document.getElementById("js__shop").onclick = function() {
     location.href = "shop.html";
 };
+
+$(document).ready(function() {
+    $("li").change(function() {
+        var fontPreference = $("li").val();
+        $("body").attr('style', 'font-family:"' + fontPreference + '" !important');
+    });
+});

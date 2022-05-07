@@ -145,12 +145,3 @@ document.getElementById("js__series").onclick = function() {
 document.getElementById("js__shop").onclick = function() {
     location.href = "shop.html";
 };
-
-
-
-$(document).ready(function() {
-
-    $("li").click(function() {
-        $("body").append("<style>* { font-family:  monospace!important;}</style>");
-    });
-});

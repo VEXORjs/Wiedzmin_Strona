@@ -346,12 +346,12 @@ article.shop {
 
 @media screen and (min-width: 601px) {
     h2.naglowek1 {
-      font-size: 80px;
+      font-size: 8vw;
     }
   }
   
   @media screen and (max-width: 600px) {
     h2.naglowek1 {
-      font-size: 30px;
+      font-size: 3vw;
     }
   }

@@ -152,8 +152,7 @@ p.pill:first-of-type {
 article > header > h2 {
     font-size: 3rem;
     display: flex;
-    align-items: flex-start;
-    gap: 2rem;
+    align-items: center;
 }
 
 article > header > small {

@@ -1,6 +1,6 @@
 # The Witcher Website
 
-[https://wiedzmin-strona.vercel.app/](https://wiedzmin-stronka.vercel.app/)
+[https://wiedzmin-strona.vercel.app/](https://wiedzmin-strona.vercel.app/)
 
 Strona przygotowana na potrzebę wykonania projektu strony internetowej do szkoły. 
 
